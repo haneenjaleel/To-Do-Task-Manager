@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+h1{
+    color: blueviolet;
+}
+li{
+    list-style: none;
+    border: solid 1px rgb(38, 38, 129);
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hidden{
+    display:none ;
+}
+.active{
+    display: block;
+    
+}
