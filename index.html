@@ -7,23 +7,30 @@
     <link rel="stylesheet" href="./style.css"> 
 </head>
 <body>
-    <h1> TO-DOS </h1>
-<form id="my-form">
-    <input type="text" id="id-iput"> 
-    <button type="submit" id="btn"> Add</button>
-</form>
+    <div class="crud">
+        <h1> TO-DOS </h1>
+        <h2>Write What You Would Like To Accomplish In Your Coming Days :-</h2>
 
-<ul id="my-list">
-    <li>
-        <p> Wash the dishes</p>
-        <button type="submit" class="delet"> delet</button>
-    </li>
-    <li> 
-        <p> cook the cake </p>
-        <button type="submit" class="delet"> delet</button>
-    </li>
+
+         <br><br>
+        <div class="head">
+            <div class="text" >
+            <input type="text" id="taskInput" placeholder="Enter Task" onclick="addToDo">
+         </div>
     
-</ul>
+            <button type="submit" class="btn" onclick="addTask()"> Add</button>
+
+        </div>
+         <br>
+
+
+         <div id="taskList">
+          <!-- <p> join to amusic class </p>
+                <button id="delet">DELET</button>
+                <button id="edit">EDIT</button>
+                <button id="donee">DONE</button> -->
+          
+        </div>
 <script src="./app.js"></script>
 </body>
 </html>
