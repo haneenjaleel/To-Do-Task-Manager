@@ -41,7 +41,8 @@ function addTask(e) {
     return;
   }
 
-  // راح اسوي اوبجكت واضيفه للاري تبع الخزن واستدعي دالة التحديث اللي رح نسويها بعد شويه
+  // راح اسوي اوبجكت واضيفه للarray 
+  //  تبع الخزن واستدعي دالة التحديث اللي رح نسويها بعد شويه
   const newTask = {
     text: taskText,
   };
@@ -66,7 +67,7 @@ function deletTask(index) {
   updateTaskList();
 }
 
-// دالة الدن
+// دالة done 
 function doneTask(index) {
   tasks[index].done = !tasks[index].done;
   updateTaskList();
